@@ -30,3 +30,5 @@ Pinouts for Rover Elite and Sparkfun 9822
 - 8 A
 
 I had to reverse pins 7 and 8 on the cable to the Sparkfun 9822 to get communication to happen. Unsure if Sparkfun or Rover Evolve is documented correctly.
+
+![Graph of data](https://raw.githubusercontent.com/CyberRad/CoopSolar/master/grafana.png)
