@@ -18,7 +18,7 @@ Pinouts for Rover Elite and Sparkfun 9822
 - 7 B
 - 8 5v (not needed)
 
-**Sparkfun 9822**
+**Sparkfun 9822 w/RJ45 Jack**
 
 - 1 Not Used
 - 2 Not Used
