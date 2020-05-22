@@ -1,7 +1,7 @@
 # CoopSolar
-Communicate with Renogy Rover Elite over RS485 to Sparkfun 9822 connected to a Raspberry Pi using Python. Upload the data points to InfluxDB for display in Grafana.
+Communicate with Renogy Rover Elite over RS485 to Sparkfun 9822 connected to a Raspberry Pi using Python. Upload the data points to InfluxDB for display in Grafana. The script may work for other Renogy charge controllers that use RS485.
 
-getcharge.py is ran every minute using cron. This script handles the communication to the controller and sends the data to InfluxDB.
+getcharge.py is ran every 5 minutes using cron. This script handles the communication to the controller and sends the data to InfluxDB.
 
 Thanks to nsaspook on allaboutcircuits.com for mapping out the controller and helping me understand RS485. https://forum.allaboutcircuits.com/threads/project-solar-wind-pic-controlled-battery-array.32879/
 
