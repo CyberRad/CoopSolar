@@ -26,6 +26,7 @@
             "align": "center",
             "displayMode": "auto"
           },
+          "decimals": 0,
           "mappings": [
             {
               "from": "",
@@ -76,7 +77,7 @@
               "from": "",
               "id": 5,
               "operator": "",
-              "text": "Floating Chargin",
+              "text": "Floating Charging",
               "to": "",
               "type": 1,
               "value": "5"
@@ -100,7 +101,7 @@
               }
             ]
           },
-          "unit": "short"
+          "unit": "none"
         },
         "overrides": []
       },
@@ -114,12 +115,12 @@
       "maxDataPoints": 1,
       "options": {
         "colorMode": "value",
-        "graphMode": "area",
-        "justifyMode": "auto",
+        "graphMode": "none",
+        "justifyMode": "center",
         "orientation": "auto",
         "reduceOptions": {
           "calcs": [
-            "mean"
+            "lastNotNull"
           ],
           "values": false
         }
@@ -1380,5 +1381,5 @@
   "timezone": "",
   "title": "Coop Stats",
   "uid": "D-aedwRMz",
-  "version": 41
+  "version": 45
 }
