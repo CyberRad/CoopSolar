@@ -5,6 +5,8 @@ getcharge.py is ran every 5 minutes using cron. This script handles the communic
 
 Thanks to nsaspook on allaboutcircuits.com for mapping out the controller and helping me understand RS485. https://forum.allaboutcircuits.com/threads/project-solar-wind-pic-controlled-battery-array.32879/
 
+**Dependencies** - Python 3 with pymodbus and InfluxDBClient
+
 Pinouts for Rover Elite and Sparkfun 9822
 
 **Rover Elite**
